@@ -17,6 +17,6 @@ Install requirements with:
 
 Use it like this:
 
-`cat index.j2.html | python staticgen.py config.yml > index.html`
+`cat index.j2.html | python smallfry.py config.yml > index.html`
 
 It's just binding a jinja2 template to whatever you stick.in that config file. See the [jinja2 documentation](https://jinja.palletsprojects.com/en/3.1.x/) for how to use jinja2. 
